@@ -75,10 +75,5 @@ export default defineConfig({
       url: 'http://127.0.0.1:3000',
       reuseExistingServer: !process.env.CI,
     },
-    // {
-    //   command: 'npm run start',
-    //   url: 'https://github-action-basics-g6px5v3a6-kaialans-projects.vercel.app/',
-    //   reuseExistingServer: !process.env.CI,
-    // }
   ]
 });
