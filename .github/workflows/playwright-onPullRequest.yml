@@ -1,7 +1,5 @@
 name: Playwright on Pull Request Tests
 on:
-  push:
-    branches: [ main, master, test-deployment-vercel ]
   pull_request:
     branches: [ main, master ]
 jobs:
