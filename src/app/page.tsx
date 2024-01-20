@@ -10,6 +10,10 @@ export default function Home() {
         className="w-1/3 h-10 bg-blue-500 rounded-xl text-white"
         onClick={() => alert('You clicked me xd !')}
         >Click me!</button>
+        <button
+        className="w-1/3 h-10 bg-blue-500 rounded-xl text-white"
+        onClick={() => alert('You clicked mex2 xd !')}
+        >Click mex2 !</button>
       </div>
     </main>
   );
